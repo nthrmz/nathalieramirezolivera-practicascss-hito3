@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #cfefff, #a8d8ff);
+}
+
+header{
+    background-color: #114b73;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.main-redimension{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    width: 100%;
+    margin-top: 0;
+}
+  
+.section1,
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+  
+article{
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+  
+.min-width{
+    color: white;
+    background-color: rgb(4, 45, 196);
+    min-width: 250px;
+    width: 100%;
+    max-width: 300px;
+}
+  
+.max-width{
+    background-color: rgb(227, 214, 35);
+    max-width: 300px;
+    width: 100%;
+}
+  
+.min-red{
+    background-color: #ff43d6;
+    width: min(400px, 100%);
+}
+  
+.max-blue{
+    background-color: #000053;
+    color: white;
+    width: 100%;  /* Ocupa toda la pantalla */
+}
+  
+.clamp-green{
+    background-color: rgb(7, 112, 82);
+    color: white;
+    width: 100%;  /* También ocupa toda la pantalla */
+}
+
+footer{
+    background-color: #0a1f33;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 0px;
+}
+
+footer nav{
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 1rem;
+}
+
+footer nav a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 80px;
+}
+
+footer a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer i{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}

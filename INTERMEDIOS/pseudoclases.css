@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #cfefff, #a8d8ff);
+}
+
+header{
+    background-color: #114b73;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+main{
+    margin-top: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+.enlaces{
+    background-color: #2d55cc;
+    padding: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.enlaces a{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    color: rgb(13, 2, 2);
+    text-decoration: none;
+    background-color: #36c2feb4;
+}
+
+.enlaces a:link{
+    color: rgb(0, 0, 0);
+}
+
+.enlaces a:visited{
+    color: rgb(66, 255, 255);
+}
+
+.enlaces a:hover{
+    background-color: rgb(188, 212, 36);
+}
+
+.enlaces a:active{
+    color: rgb(214, 144, 144);
+}
+
+.enlaces a:target{
+    background-color: rgb(173, 245, 129);
+    color: white;
+}
+
+.formularios{
+    color: white;
+    background-color: #509be7a8;
+    padding: 30px;
+    text-align: center;
+}
+
+form{
+    background-color: #ecf3f6;
+    color: black;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+  
+form input:focus{
+    border: 2px solid #2260a2;
+    outline: none;
+    background-color: #e9f5ff;
+}
+
+form:focus-within{
+    border-color: #23ff56;
+}
+
+form input[type="checkbox"]:checked + label,
+form label input:checked{
+  accent-color: #23ff56; 
+  font-weight: bold;
+}
+
+.seleccion ul{
+    color: #ecf3f6;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.seleccion li{
+    width: 100%;
+    padding: 15px;
+    color: rgb(250, 246, 246);
+    font-weight: bold;
+}
+
+.seleccion li:nth-child(odd){
+    background-color: rgb(11, 106, 201);
+}
+
+.seleccion li:nth-child(even){
+    background-color: rgba(161, 109, 12, 0.623);
+}
+
+footer{
+    background-color: #0a1f33;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 0px;
+}
+
+footer nav{
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 1rem;
+}
+
+footer nav a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 80px;
+}
+
+footer a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer i{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}

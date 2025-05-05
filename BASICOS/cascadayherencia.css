@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #cfefff, #a8d8ff);
+}
+
+header{
+    background-color: #114b73;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+main{
+    margin-top: -40px;
+    font-family: 'Knewave', cursive;
+    color: #222;
+    width: 100%;
+}
+  
+.seccion{
+    width: 100%;
+    padding: 30px 0;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+ 
+.contenedorno{
+    font-family: Arial, sans-serif;
+    border: 2px solid black ;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.contenedorwow{
+    border: 2px solid black ;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.contenedor{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+  
+h3{
+    margin: 0;
+    font-size: 20px;
+}
+  
+.no-hereda{
+    font-family: Arial, sans-serif;
+    color: rgb(15, 44, 85);
+    background: linear-gradient(to bottom, #cfefff, #a8d8ff);}
+  
+.hereda-borde-ancho{
+    background: linear-gradient(to bottom, #cfefff, #a8d8ff);
+}
+  
+.hereda-fuente-ancho{
+    background-color: #d4cd6f;
+    border: none;
+}
+
+footer{
+    background-color: #0a1f33;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: -50px;
+}
+
+footer nav{
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 1rem;
+}
+
+footer nav a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 80px;
+}
+
+footer a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer i{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}

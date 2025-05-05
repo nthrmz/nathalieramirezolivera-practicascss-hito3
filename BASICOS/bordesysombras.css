@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #cfefff, #a8d8ff);
+}
+
+header{
+    background-color: #114b73;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+  
+main{
+    margin: 0 auto;
+}
+  
+.seccion{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #e7f1f9;
+    border: 2px solid black;
+}
+  
+.sombra{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+  
+.sombra1{ 
+    background-color: #1e2fc5; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.sombra2{ 
+    background-color: #975d24; box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4); 
+}
+
+.sombra3{ 
+    background-color: #5a8f47; box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.sombra4{ 
+    background-color: #3d3d5c; box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.sombra5{ 
+    background-color: #6bcddc; box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2); 
+}
+  
+.img-shadow{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;}
+  
+.img1{
+    box-shadow: 6px 6px 10px rgb(78, 164, 222); 
+}
+
+.img2{ 
+    box-shadow: 10px 10px 15px rgb(118, 77, 15);
+}
+
+.img3{ 
+    box-shadow: 0px 12px 20px rgb(152, 184, 63); 
+}
+
+.img4{ 
+    box-shadow: -8px 8px 12px #333; 
+}
+
+.img5{
+    box-shadow: 0px 0px 10px rgb(61, 143, 163); 
+}
+  
+.png{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+  
+.png1{
+    filter: drop-shadow(4px 4px 4px #ef6000); 
+}
+
+.png2{ 
+    filter: drop-shadow(6px 6px 6px #9f055a); 
+}
+
+.png3{ 
+    filter: drop-shadow(0px 8px 12px #e87ab5); 
+}
+
+.png4{ 
+    filter: drop-shadow(-5px 5px 10px #e7380c); 
+}
+
+.png5{ 
+    filter: drop-shadow(3px 3px 3px #08941d); 
+}
+
+footer{
+    background-color: #0a1f33;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: -50px;
+}
+
+footer nav{
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 1rem;
+}
+
+footer nav a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 80px;
+}
+
+footer a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer i{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}

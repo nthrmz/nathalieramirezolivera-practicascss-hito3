@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #cfefff, #a8d8ff);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+    background-color: #114b73;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+button {
+    padding: 10px 50px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #114b73;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(252, 255, 48);
+    color: rgb(0, 0, 0);
+    border: 2px solid #073d62;
+}
+
+[popover] {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100dvh);
+    opacity: 0;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #dccf1f;
+    color: #000000;
+    padding: 20px;
+    z-index: 1000;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+[popover]:popover-open {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+[popover]::backdrop {
+    background-color: rgba(255, 255, 0, 0.318);
+}
+
+footer {
+    background-color: #0a1f33;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 1rem;
+}
+
+footer nav a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 80px;
+}
+
+footer a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer i {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}

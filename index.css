@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #cfefff, #a8d8ff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #114b73;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+header hr{
+    border: 1px solid #ffffff;
+    width: 60%;
+    margin: 20px auto;
+}
+
+header p{
+    font-size: 1em;
+    font-style: italic;
+}
+
+main {
+    flex-grow: 1;
+    padding: 70px 20px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.botones{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+details{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+    width: 100%;
+}
+
+details:hover{
+    transform: scale(1.01);
+}
+
+summary{
+    font-size: 1.4em;
+    color: #0e4781;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+ol{
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #333;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+a{
+    color: #2c6fab;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #0b3d6e;
+    text-decoration: underline;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.imagen img{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #0a1f33;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.95em;
+    font-style: italic;
+    box-shadow: 0 -3px 6px rgba(0,0,0,0.2);
+}

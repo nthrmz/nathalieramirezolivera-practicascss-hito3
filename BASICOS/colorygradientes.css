@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #cfefff, #a8d8ff);
+}
+
+header{
+    background-color: #114b73;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+main{
+    margin: 0 auto;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    padding: 35vh 0;
+    font-size: 100px;  
+}
+
+.color{
+    background-color: rgb(99, 161, 228);
+    color: rgb(8, 27, 108);
+}
+
+.degradado{
+    background: linear-gradient(rgb(237, 174, 14), rgb(13, 28, 194));
+color: white;
+}
+
+.imagen{
+    background-image: url(../IMG/imagencolorgradiente.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: #0a1f33;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: -50px;
+}
+
+footer nav{
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 1rem;
+}
+
+footer nav a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 80px;
+}
+
+footer a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer i{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}

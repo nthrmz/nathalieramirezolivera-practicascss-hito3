@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #cfefff, #a8d8ff);
+}
+
+header{
+    background-color: #114b73;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+main{
+    margin: 0 auto;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    padding: 35vh 0;
+    font-size: 100px; 
+}
+
+.position{
+    background-image: url(../IMG/position.jpg);
+    background-position: left;
+    background-size: cover;
+    color: rgba(223, 241, 244, 0.83);
+}
+
+.attachment{
+    color: rgba(0, 255, 251, 0.896);
+    background-image: url(../IMG/attachment.jpg);
+    background-attachment: local;
+    background-size: cover;
+}
+
+.repeat{
+    color: rgba(255, 0, 144, 0.87);
+    background-image: url(../IMG/repear.jpg);
+    background-repeat: repeat;
+    background-size: 100px 100px;
+}
+
+footer{
+    background-color: #0a1f33;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: -50px;
+}
+
+footer nav{
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 1rem;
+}
+
+footer nav a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 80px;
+}
+
+footer a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer i{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
